@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.StoneGameIII
+namespace Challenges.LeetCode.StoneGameIII
 {
     public class SolutionDynamicProgramming
     {

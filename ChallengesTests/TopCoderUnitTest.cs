@@ -5,17 +5,17 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
-using TopCoderCS.Algorithms;
+using Challenges.Algorithms;
 using System.Text;
 using System.Xml;
-using TopCoderCS.FiveThirtyEight;
+using Challenges.FiveThirtyEight;
 using CodeForces;
-using TopCoderCS;
+using Challenges;
 using FluentAssertions;
-using TopCoderCS.LeetCode;
-using DistTreeNode = TopCoderCS.LeetCode.DistributeCoinsInBinaryTree.TreeNode;
-using BtmpsTreeNode = TopCoderCS.LeetCode.BinaryTreeMaximumPathSum.TreeNode;
-using DnarfTreeNode = TopCoderCS.LeetCode.DeleteNodesAndReturnForest.TreeNode;
+using Challenges.LeetCode;
+using DistTreeNode = Challenges.LeetCode.DistributeCoinsInBinaryTree.TreeNode;
+using BtmpsTreeNode = Challenges.LeetCode.BinaryTreeMaximumPathSum.TreeNode;
+using DnarfTreeNode = Challenges.LeetCode.DeleteNodesAndReturnForest.TreeNode;
 using Xunit;
 
 namespace TopCoderCSTest
@@ -1970,7 +1970,7 @@ namespace TopCoderCSTest
         [Fact]
         public void SurroundedRegions()
         {
-            var dut = new TopCoderCS.LeetCode.SurroundedRegions.Solution();
+            var dut = new Challenges.LeetCode.SurroundedRegions.Solution();
 
             char[][] board;
 
@@ -2031,7 +2031,7 @@ namespace TopCoderCSTest
         [Fact]
         public void Trap()
         {
-            var sut = new TopCoderCS.LeetCode.TrappingRainWater.Solution();
+            var sut = new Challenges.LeetCode.TrappingRainWater.Solution();
             int result;
 
             result = sut.Trap(new[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 });
@@ -2047,7 +2047,7 @@ namespace TopCoderCSTest
         [Fact]
         public void NQueens()
         {
-            var sut = new TopCoderCS.LeetCode.NQueens.Solution();
+            var sut = new Challenges.LeetCode.NQueens.Solution();
 
             var result = sut.SolveNQueens(4);
             for (int i = 0; i < result.Count; i++)
@@ -2063,7 +2063,7 @@ namespace TopCoderCSTest
         [Fact]
         public void DistributeCoinsInBinaryTree()
         {
-            var sut = new TopCoderCS.LeetCode.DistributeCoinsInBinaryTree.Solution();
+            var sut = new Challenges.LeetCode.DistributeCoinsInBinaryTree.Solution();
 
             int result;
             DistTreeNode tree;
@@ -2095,7 +2095,7 @@ namespace TopCoderCSTest
         [Fact]
         public void DungeonGame()
         {
-            var sut = new TopCoderCS.LeetCode.DungeonGame.Solution();
+            var sut = new Challenges.LeetCode.DungeonGame.Solution();
 
             int result;
 
@@ -2141,7 +2141,7 @@ namespace TopCoderCSTest
         [Fact]
         public void BinaryTreeMaximumPathSum()
         {
-            var sut = new TopCoderCS.LeetCode.BinaryTreeMaximumPathSum.Solution();
+            var sut = new Challenges.LeetCode.BinaryTreeMaximumPathSum.Solution();
             BtmpsTreeNode tree;
             int result;
 
@@ -2203,7 +2203,7 @@ namespace TopCoderCSTest
         [Fact]
         public void DeleteNodesAndReturnForest()
         {
-            var sut = new TopCoderCS.LeetCode.DeleteNodesAndReturnForest.Solution();
+            var sut = new Challenges.LeetCode.DeleteNodesAndReturnForest.Solution();
             DnarfTreeNode tree;
             IList<DnarfTreeNode> result;
 
@@ -2224,7 +2224,7 @@ namespace TopCoderCSTest
         [Fact]
         public void TheSkylineProblem()
         {
-            var sut = new TopCoderCS.LeetCode.TheSkylineProblem.Solution();
+            var sut = new Challenges.LeetCode.TheSkylineProblem.Solution();
             var ret = sut.GetSkyline(new int[][] { new[] { 2, 9, 10 }, new[] { 3, 7, 15 }, new[] { 5, 12, 12 }, new[] { 15, 20, 10 }, new[] { 19, 24, 8 } });
             ret.Should().BeEquivalentTo(new int[][] { new int[] { 2, 10 }, new int[] { 3, 15 }, new int[] { 7, 12 }, new int[] { 12, 0 }, new int[] { 15, 10 }, new int[] { 20, 8 }, new int[] { 24, 0 } });
         }
@@ -2232,8 +2232,8 @@ namespace TopCoderCSTest
         [Fact]
         public void FindTheWinnerOfTheCircularGame()
         {
-            var good = new TopCoderCS.LeetCode.FindTheWinnerOfTheCircularGame.ArraySolution();
-            var sut = new TopCoderCS.LeetCode.FindTheWinnerOfTheCircularGame.CompressingListSolution();
+            var good = new Challenges.LeetCode.FindTheWinnerOfTheCircularGame.ArraySolution();
+            var sut = new Challenges.LeetCode.FindTheWinnerOfTheCircularGame.CompressingListSolution();
 
             int expected = good.FindTheWinner(7, 5);
             int actual = sut.FindTheWinner(7, 5);

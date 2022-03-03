@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.SurroundedRegions
+namespace Challenges.LeetCode.SurroundedRegions
 {
     public class Solution
     {

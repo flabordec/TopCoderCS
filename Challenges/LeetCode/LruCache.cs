@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.LruCache
+namespace Challenges.LeetCode.LruCache
 {
     public class LRUCache
     {

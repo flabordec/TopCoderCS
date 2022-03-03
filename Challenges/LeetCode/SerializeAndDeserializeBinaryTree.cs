@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.SerializeAndDeserializeBinaryTree
+namespace Challenges.LeetCode.SerializeAndDeserializeBinaryTree
 {
     public class TreeNode
     {

@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.BinaryTreeRightSideView
+namespace Challenges.LeetCode.BinaryTreeRightSideView
 {
     public class TreeNode
     {

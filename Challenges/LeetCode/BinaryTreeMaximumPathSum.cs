@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.BinaryTreeMaximumPathSum
+namespace Challenges.LeetCode.BinaryTreeMaximumPathSum
 {
     /**
      * Definition for a binary tree node.

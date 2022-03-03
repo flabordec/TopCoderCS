@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TopCoderCS.Algorithms;
+using Challenges.Algorithms;
 
-namespace TopCoderCS.LeetCode.OpenTheLock
+namespace Challenges.LeetCode.OpenTheLock
 {
     public class SolutionWithTracking
     {

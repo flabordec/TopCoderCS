@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.SudokuSolver
+namespace Challenges.LeetCode.SudokuSolver
 {
     public class Solution
     {

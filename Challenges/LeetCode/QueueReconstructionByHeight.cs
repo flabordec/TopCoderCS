@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.QueueReconstructionByHeight
+namespace Challenges.LeetCode.QueueReconstructionByHeight
 {
     public class Solution
     {

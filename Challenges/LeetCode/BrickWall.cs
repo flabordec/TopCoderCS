@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.BrickWall
+namespace Challenges.LeetCode.BrickWall
 {
     // |[][]| -> 1   3   5 
     // [ ]|[] ->     3 4 

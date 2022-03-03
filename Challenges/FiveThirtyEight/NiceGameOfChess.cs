@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.FiveThirtyEight
+namespace Challenges.FiveThirtyEight
 {
 	public class NiceGameOfChess
 	{

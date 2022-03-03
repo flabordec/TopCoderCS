@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.OutOfBoundaryPaths
+namespace Challenges.LeetCode.OutOfBoundaryPaths
 {
     public class Solution
     {

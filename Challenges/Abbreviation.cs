@@ -12,7 +12,7 @@ using System.Text;
 using System;
 using System.Runtime.InteropServices;
 
-namespace TopCoderCS
+namespace Challenges
 {
     public class Abbreviation
     {

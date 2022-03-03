@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.DistributeCoinsInBinaryTree
+namespace Challenges.LeetCode.DistributeCoinsInBinaryTree
 {
     public class TreeNode
     {

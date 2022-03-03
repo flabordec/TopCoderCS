@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TopCoderCS.LeetCode.NumberOfIslands;
+using Challenges.LeetCode.NumberOfIslands;
 
 namespace Benchmark
 {

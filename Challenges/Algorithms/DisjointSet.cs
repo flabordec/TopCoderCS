@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-namespace TopCoderCS.Algorithms
+namespace Challenges.Algorithms
 {
 	public class DisjointSet<T> : IEnumerable<T>
 	{

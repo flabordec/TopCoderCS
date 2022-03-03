@@ -7,7 +7,7 @@ namespace Benchmark
     {
         static void Main(string[] args)
         {
-            BenchmarkRunner.Run<BenchmarkUniquePaths>();
+            BenchmarkRunner.Run<BenchmarkSetMatrixZeroes>();
         }
     }
 }

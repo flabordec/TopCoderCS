@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.NumberOfIslands
+namespace Challenges.LeetCode.NumberOfIslands
 {
     public class SolutionBfs
     {

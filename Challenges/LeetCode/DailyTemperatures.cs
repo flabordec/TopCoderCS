@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode
+namespace Challenges.LeetCode
 {
     public class Solution_DailyTemperatures
     {

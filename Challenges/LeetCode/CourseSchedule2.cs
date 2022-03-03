@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.CourseSchedule2
+namespace Challenges.LeetCode.CourseSchedule2
 {
     public class Solution
     {

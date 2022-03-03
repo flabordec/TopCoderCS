@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.Algorithms
+namespace Challenges.Algorithms
 {
 	class MathHelpers
 	{

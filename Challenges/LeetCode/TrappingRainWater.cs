@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TopCoderCS.LeetCode.TrappingRainWater
+namespace Challenges.LeetCode.TrappingRainWater
 {
     public class Solution
     {
