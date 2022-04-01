@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,8 @@ namespace Challenges.LeetCode.SetMatrixZeroes
             if (seen[i][j])
                 return;
 
+            seen[i][j] = true;
+
             if (matrix[i][j] == 0)
             {
                 for (int ni = 0; ni < matrix.Length; ni++)
@@ -41,7 +44,6 @@ namespace Challenges.LeetCode.SetMatrixZeroes
                     InnerSetZeroes(i, nj, matrix, seen);
                 }
             }
-            seen[i][j] = true;
         }
     }
 
@@ -120,4 +122,38 @@ namespace Challenges.LeetCode.SetMatrixZeroes
         }
     }
 
+    public class SolutionClever
+    {
+        public void SetZeroes(int[][] matrix)
+        {
+            var zeroCols = new BitArray(matrix[0].Length);
+
+            for (int i = 0; i < matrix.Length; i++)
+            {
+                bool anyZeroes = false;
+                for (int j = 0; j < matrix[i].Length; j++)
+                {
+                    if (matrix[i][j] == 0)
+                    {
+                        zeroCols[j] = true;
+                        anyZeroes = true;
+                    }
+                }
+                if (anyZeroes)
+                {
+                    for (int j = 0; j < matrix[i].Length; j++)
+                        matrix[i][j] = 0;
+                }
+            }
+
+            for (int j = 0; j < matrix[0].Length; j++)
+            {
+                if (zeroCols[j] == true)
+                {
+                    for (int i = 0; i < matrix.Length; i++)
+                        matrix[i][j] = 0;
+                }
+            }
+        }
+    }
 }
