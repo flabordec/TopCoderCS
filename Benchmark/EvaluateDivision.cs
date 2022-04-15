@@ -11,6 +11,7 @@ using Challenges.LeetCode.EvaluateDivision;
 namespace Benchmark
 {
     /*
+     * Explosion == false means that we have at most n nodes
     |        Method | _n | _explosion |         Mean |     Error |    StdDev | Ratio | RatioSD |
     |-------------- |--- |----------- |-------------:|----------:|----------:|------:|--------:|
     | FloydWarshall | 10 |      False |     4.918 us | 0.0272 us | 0.0254 us |  1.00 |    0.00 |
