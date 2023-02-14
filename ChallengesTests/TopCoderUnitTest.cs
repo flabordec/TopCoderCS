@@ -2249,5 +2249,30 @@ namespace TopCoderCSTest
                 }
             }
         }
+
+        [Fact]
+        public void PowerSetTest()
+        {
+            var solver = new Challenges.Interviews.PowerSet.PowerSet();
+
+            var solution = solver.GeneratePowerSet(new HashSet<int>() { 1, 2, 3 });
+
+            var builder = new StringBuilder();
+            foreach (var set in solution)
+            {
+                builder.Append("[");
+                if (set.Any())
+                {
+                    builder.Append(set.First());
+                    foreach (var i in set.Skip(1))
+                    {
+                        builder.Append(", ");
+                        builder.Append(i);
+                    }
+                }
+                builder.Append("]");
+            }
+            Console.WriteLine(builder);
+        }
     }
 }
